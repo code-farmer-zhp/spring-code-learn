@@ -20,4 +20,9 @@ public class ContextLoaderListener extends ContextLoader implements ServletConte
     public void contextDestroyed(ServletContextEvent servletContextEvent) {
 
     }
+
+    public static void main(String[] args) {
+        Class<?> declaringClass = ContextLoaderListener.class.getDeclaringClass();
+        System.out.println(declaringClass);
+    }
 }

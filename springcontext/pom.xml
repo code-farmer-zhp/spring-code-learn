@@ -16,5 +16,12 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.zhp</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -7,4 +7,14 @@ public abstract class AbstractEnvironment implements ConfigurableEnvironment {
     public void validateRequiredProperties() {
         //TODO
     }
+
+    @Override
+    public MutablePropertySources getPropertySources() {
+        return null;
+    }
+
+    @Override
+    public void merge(ConfigurableEnvironment parent) {
+
+    }
 }

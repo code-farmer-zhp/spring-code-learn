@@ -22,6 +22,11 @@
             <artifactId>spring-core</artifactId>
             <version>${parent.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.zhp</groupId>
+            <artifactId>spring-bean</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

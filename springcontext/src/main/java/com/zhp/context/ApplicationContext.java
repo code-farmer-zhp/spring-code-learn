@@ -1,7 +1,9 @@
 package com.zhp.context;
 
 
-public interface ApplicationContext {
+import com.zhp.env.EnvironmentCapable;
+
+public interface ApplicationContext extends EnvironmentCapable {
     String getId();
 
     ApplicationContext getParent();

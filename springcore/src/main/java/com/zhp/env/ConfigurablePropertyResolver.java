@@ -1,6 +1,6 @@
 package com.zhp.env;
 
-public interface ConfigurablePropertyResolver {
+public interface ConfigurablePropertyResolver extends PropertyResolver{
 
     void validateRequiredProperties();
 }

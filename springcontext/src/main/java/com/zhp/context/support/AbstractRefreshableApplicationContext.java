@@ -67,6 +67,11 @@ public abstract class AbstractRefreshableApplicationContext extends AbstractAppl
 
     @Override
     public ConfigurableListableBeanFactory getBeanFactory() {
-        return null;
+        synchronized (beanFactoryMonitor) {
+            if (beanFactory == null) {
+                throw new RuntimeException("DefaultListableBeanFactory 为null");
+            }
+            return beanFactory;
+        }
     }
 }

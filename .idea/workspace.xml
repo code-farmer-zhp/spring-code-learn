@@ -2,26 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31c750a7-98df-4f33-9ee6-bfe59198e3da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/config/ConfigurableBeanFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/config/ConfigurableListableBeanFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/support/DefaultListableBeanFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/EnvironmentCapable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/MutablePropertySources.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/PropertySource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/PropertySources.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcontext/target/classes/com/zhp/context/ApplicationContext.class" afterPath="$PROJECT_DIR$/springcontext/target/classes/com/zhp/context/ApplicationContext.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/support/BeanDefinitionRegistry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/xml/XmlBeanDefinitionReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/support/AbstractRefreshableConfigApplicationContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/AbstractPropertyResolver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/PropertyResolver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/PropertySourcesPropertyResolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springbean/target/classes/org/zhp/beans/factory/support/DefaultListableBeanFactory.class" afterPath="$PROJECT_DIR$/springbean/target/classes/org/zhp/beans/factory/support/DefaultListableBeanFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcontext/target/classes/com/zhp/context/ConfigurableApplicationContext.class" afterPath="$PROJECT_DIR$/springcontext/target/classes/com/zhp/context/ConfigurableApplicationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcontext/target/classes/com/zhp/context/support/AbstractApplicationContext.class" afterPath="$PROJECT_DIR$/springcontext/target/classes/com/zhp/context/support/AbstractApplicationContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcontext/target/classes/com/zhp/context/support/AbstractRefreshableApplicationContext.class" afterPath="$PROJECT_DIR$/springcontext/target/classes/com/zhp/context/support/AbstractRefreshableApplicationContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcore/target/classes/com/zhp/env/AbstractEnvironment.class" afterPath="$PROJECT_DIR$/springcore/target/classes/com/zhp/env/AbstractEnvironment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcore/target/classes/com/zhp/env/ConfigurableEnvironment.class" afterPath="$PROJECT_DIR$/springcore/target/classes/com/zhp/env/ConfigurableEnvironment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcore/target/classes/com/zhp/env/ConfigurablePropertyResolver.class" afterPath="$PROJECT_DIR$/springcore/target/classes/com/zhp/env/ConfigurablePropertyResolver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springweb/target/classes/com/zhp/web/context/ContextLoader.class" afterPath="$PROJECT_DIR$/springweb/target/classes/com/zhp/web/context/ContextLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springweb/target/classes/com/zhp/web/context/support/AbstractRefreshableWebApplicationContext.class" afterPath="$PROJECT_DIR$/springweb/target/classes/com/zhp/web/context/support/AbstractRefreshableWebApplicationContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springweb/target/classes/com/zhp/web/context/support/XmlWebApplicationContext.class" afterPath="$PROJECT_DIR$/springweb/target/classes/com/zhp/web/context/support/XmlWebApplicationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcontext/pom.xml" afterPath="$PROJECT_DIR$/springcontext/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/ApplicationContext.java" afterPath="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/ApplicationContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/support/AbstractApplicationContext.java" afterPath="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/support/AbstractApplicationContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/support/DefaultListableBeanFactory.java" afterPath="$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/support/DefaultListableBeanFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/ConfigurableApplicationContext.java" afterPath="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/ConfigurableApplicationContext.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/support/AbstractRefreshableApplicationContext.java" afterPath="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/support/AbstractRefreshableApplicationContext.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/AbstractEnvironment.java" afterPath="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/AbstractEnvironment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/ConfigurableEnvironment.java" afterPath="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/ConfigurableEnvironment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/ConfigurablePropertyResolver.java" afterPath="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/ConfigurablePropertyResolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/ContextLoader.java" afterPath="$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/ContextLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/support/AbstractRefreshableWebApplicationContext.java" afterPath="$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/support/AbstractRefreshableWebApplicationContext.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/support/XmlWebApplicationContext.java" afterPath="$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/support/XmlWebApplicationContext.java" />
     </list>
     <ignored path="$PROJECT_DIR$/springbean/target/" />
@@ -46,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/support/AbstractApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="268">
-              <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+              <caret line="16" column="78" lean-forward="true" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1059#1060#0" expanded="true" />
@@ -64,21 +65,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConfigurableListableBeanFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/config/ConfigurableListableBeanFactory.java">
+      <file leaf-file-name="ConfigurableApplicationContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/ConfigurableApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="84">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XmlWebApplicationContext.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AbstractEnvironment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/AbstractEnvironment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertyResolver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/PropertyResolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmlWebApplicationContext.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/support/XmlWebApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="65" lean-forward="false" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+            <state relative-caret-position="567">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmlBeanDefinitionReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/xml/XmlBeanDefinitionReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,9 +123,36 @@
       <file leaf-file-name="AbstractRefreshableWebApplicationContext.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/support/AbstractRefreshableWebApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="83" lean-forward="true" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
+            <state relative-caret-position="315">
+              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigurableWebApplicationContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/ConfigurableWebApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractRefreshableConfigApplicationContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/support/AbstractRefreshableConfigApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,71 +160,8 @@
       <file leaf-file-name="AbstractRefreshableApplicationContext.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/support/AbstractRefreshableApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-517">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1495#1496#0" expanded="true" />
-                <element signature="e#1550#1551#0" expanded="true" />
-                <element signature="e#1772#1773#0" expanded="true" />
-                <element signature="e#1824#1825#0" expanded="true" />
-                <element signature="e#2043#2044#0" expanded="true" />
-                <element signature="e#2070#2071#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultListableBeanFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/support/DefaultListableBeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="29" column="89" lean-forward="false" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContextLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/ContextLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="74" column="13" lean-forward="true" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
-              <folding>
-                <element signature="e#6375#6376#0" expanded="true" />
-                <element signature="e#6402#6403#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebApplicationContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/WebApplicationContext.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="5" column="59" lean-forward="false" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContextLoaderListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/ContextLoaderListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigurableApplicationContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/ConfigurableApplicationContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -172,8 +172,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -200,10 +200,6 @@
         <option value="$PROJECT_DIR$/springcore/src/main/java/com/zhp/util/StringUtils.java" />
         <option value="$PROJECT_DIR$/springcore/src/main/java/com/zhp/core/ResolvableType.java" />
         <option value="$PROJECT_DIR$/springcore/src/main/java/com/zhp/core/GenericTypeResolver.java" />
-        <option value="$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/ContextLoader.java" />
-        <option value="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/ConfigurableApplicationContext.java" />
-        <option value="$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/support/AbstractRefreshableWebApplicationContext.java" />
-        <option value="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/ConfigurablePropertyResolver.java" />
         <option value="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/Environment.java" />
         <option value="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/StandardEnvironment.java" />
         <option value="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/ApplicationEvent.java" />
@@ -213,14 +209,24 @@
         <option value="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/PropertySource.java" />
         <option value="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/PropertySources.java" />
         <option value="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/MutablePropertySources.java" />
-        <option value="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/AbstractEnvironment.java" />
         <option value="$PROJECT_DIR$/springcontext/pom.xml" />
-        <option value="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/support/AbstractApplicationContext.java" />
         <option value="$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/config/ConfigurableBeanFactory.java" />
         <option value="$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/config/ConfigurableListableBeanFactory.java" />
+        <option value="$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/support/BeanDefinitionRegistry.java" />
         <option value="$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/support/DefaultListableBeanFactory.java" />
+        <option value="$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/ContextLoader.java" />
+        <option value="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/support/AbstractApplicationContext.java" />
+        <option value="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/ConfigurableApplicationContext.java" />
+        <option value="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/ConfigurablePropertyResolver.java" />
+        <option value="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/PropertyResolver.java" />
+        <option value="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/AbstractEnvironment.java" />
+        <option value="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/PropertySourcesPropertyResolver.java" />
+        <option value="$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/AbstractPropertyResolver.java" />
         <option value="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/support/AbstractRefreshableApplicationContext.java" />
+        <option value="$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/support/AbstractRefreshableConfigApplicationContext.java" />
+        <option value="$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/support/AbstractRefreshableWebApplicationContext.java" />
         <option value="$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/support/XmlWebApplicationContext.java" />
+        <option value="$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/xml/XmlBeanDefinitionReader.java" />
       </list>
     </option>
   </component>
@@ -750,6 +756,40 @@
               <option name="myItemId" value="factory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springbean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="support" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -801,7 +841,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../score_for_release" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../memmisc-fresh-address" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1228,6 +1268,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration useDefault="false">C:\Users\peng.zhou1\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="31c750a7-98df-4f33-9ee6-bfe59198e3da" name="Default" comment="" />
@@ -1235,12 +1278,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496193190675</updated>
-      <workItem from="1496193192334" duration="33813000" />
+      <workItem from="1496193192334" duration="44343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33813000" />
+    <option name="totallyTimeSpent" value="44343000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1266,7 +1309,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2214533" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26312968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2834941" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1297,41 +1340,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springbean/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/jre/lib/rt.jar!/sun/misc/ClassLoaderUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/reflect/Modifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-          <folding>
-            <element signature="e#1632#1633#0" expanded="false" />
-            <element signature="e#1674#1675#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springweb/src/resources/com/zhp/web/context/ContextLoader.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/core/io/ClassPathResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1499,16 +1507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/ConfigurableWebApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="68" lean-forward="true" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2394">
@@ -1517,14 +1515,6 @@
             <element signature="e#3250#3251#0" expanded="false" />
             <element signature="e#3290#3291#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/ConfigurablePropertyResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1563,14 +1553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/Environment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/PropertySource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -1599,33 +1581,6 @@
             <element signature="e#451#452#0" expanded="false" />
             <element signature="e#518#519#0" expanded="false" />
             <element signature="e#545#546#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/StandardEnvironment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/ConfigurableEnvironment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/AbstractEnvironment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="e#255#256#0" expanded="false" />
-            <element signature="e#282#283#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1665,10 +1620,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/ConfigurableApplicationContext.java">
+    <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/ContextLoaderListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/WebApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="59" lean-forward="false" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/support/BeanDefinitionRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="106" lean-forward="false" selection-start-line="10" selection-start-column="106" selection-end-line="10" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/ContextLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="82" column="76" lean-forward="false" selection-start-line="82" selection-start-column="76" selection-end-line="82" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/StandardEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/ConfigurablePropertyResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/AbstractPropertyResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#185#186#0" expanded="false" />
+            <element signature="e#212#213#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/PropertySourcesPropertyResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/ConfigurableEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/PropertyResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcore/src/main/java/com/zhp/env/AbstractEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/ConfigurableApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1676,7 +1743,7 @@
     <entry file="file://$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/support/AbstractApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
-          <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <caret line="16" column="78" lean-forward="true" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1059#1060#0" expanded="true" />
@@ -1695,67 +1762,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/support/AbstractRefreshableApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-517">
+        <state relative-caret-position="105">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcontext/src/main/java/com/zhp/context/support/AbstractRefreshableConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#1772#1773#0" expanded="true" />
-            <element signature="e#1824#1825#0" expanded="true" />
-            <element signature="e#2043#2044#0" expanded="true" />
-            <element signature="e#2070#2071#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/ConfigurableWebApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/xml/XmlBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/support/AbstractRefreshableWebApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="83" lean-forward="true" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
-          <folding />
+        <state relative-caret-position="315">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/support/XmlWebApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="65" lean-forward="false" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/WebApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="59" lean-forward="false" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/ContextLoaderListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springweb/src/main/java/com/zhp/web/context/ContextLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="74" column="13" lean-forward="true" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
-          <folding>
-            <element signature="e#6375#6376#0" expanded="true" />
-            <element signature="e#6402#6403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springbean/src/main/java/org/zhp/beans/factory/support/DefaultListableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="29" column="89" lean-forward="false" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
+        <state relative-caret-position="567">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

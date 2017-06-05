@@ -61,6 +61,7 @@ public class ContextLoader {
             throw new IllegalStateException("已存在WebApplicationContext对象");
         }
         if (context == null) {
+            //context 就是XmlWebApplicationContext
             context = createWebApplicationContext(servletContext);
         }
         if (context instanceof ConfigurableWebApplicationContext) {
@@ -94,6 +95,7 @@ public class ContextLoader {
         cwac.setServletContext(sc);
         String configLocationParam = sc.getInitParameter(CONFIG_LOCATION_PARAM);
         if (configLocationParam != null) {
+            //设置configLocation 随后在XmlWebApplicationContext.loadBeanDefinitions 中使用
             cwac.setConfigLocation(configLocationParam);
         }
         ConfigurableEnvironment environment = cwac.getEnvironment();

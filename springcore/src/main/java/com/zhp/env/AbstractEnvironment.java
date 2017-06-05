@@ -3,6 +3,8 @@ package com.zhp.env;
 
 public abstract class AbstractEnvironment implements ConfigurableEnvironment {
 
+    private final ConfigurablePropertyResolver propertyResolver = new PropertySourcesPropertyResolver();
+
     @Override
     public void validateRequiredProperties() {
         //TODO
@@ -16,5 +18,10 @@ public abstract class AbstractEnvironment implements ConfigurableEnvironment {
     @Override
     public void merge(ConfigurableEnvironment parent) {
 
+    }
+
+    @Override
+    public String resolveRequiredPlaceholders(String text) {
+        return null;
     }
 }

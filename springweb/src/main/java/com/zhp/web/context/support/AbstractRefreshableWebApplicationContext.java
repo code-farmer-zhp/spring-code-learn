@@ -1,7 +1,18 @@
 package com.zhp.web.context.support;
 
 
-import com.zhp.context.support.AbstractRefreshableApplicationContext;
+import com.zhp.context.support.AbstractRefreshableConfigApplicationContext;
+import com.zhp.web.context.ConfigurableWebApplicationContext;
 
-public abstract class AbstractRefreshableWebApplicationContext extends AbstractRefreshableApplicationContext {
+import javax.servlet.ServletContext;
+
+public abstract class AbstractRefreshableWebApplicationContext extends AbstractRefreshableConfigApplicationContext
+        implements ConfigurableWebApplicationContext {
+
+    private ServletContext servletContext;
+
+    @Override
+    public void setServletContext(ServletContext servletContext) {
+        this.servletContext = servletContext;
+    }
 }
